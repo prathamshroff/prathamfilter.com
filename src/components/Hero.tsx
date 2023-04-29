@@ -20,16 +20,12 @@ const Hero: React.FC = () => {
           src="/assets/img/hero-mobile.jpg"
           alt="Hero Image Mobile"
           layout="fill"
-          objectFit="contain"
+          objectFit="cover"
           objectPosition="center"
           quality={100}
         />
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-black opacity-60"></div>
-      <div className="relative h-full flex flex-col justify-center items-center text-center">
-        <h1 className="text-5xl font-bold text-white mb-4">Site Under Maintenance</h1>
-        <button className="bg-blue-600 text-white font-bold py-2 px-6 rounded-lg">Contact Us</button>
-      </div>
       <style jsx>{`
         @media (max-width: 1024px) {
           .lg\:h-screen {

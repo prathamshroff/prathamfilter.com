@@ -1,5 +1,6 @@
 // src/config/siteInfo.ts
 export const siteInfo = {
+    currentAlertMessage: 'Site Under Maintenance',
     companyName: 'Pratham Filter Industries',
     address: 'J106 Ansa Indl. Estate, Saki Vihar Road, Andheri East, Mumbai 400072',
     email: 'ajay@prathamfilter.com',

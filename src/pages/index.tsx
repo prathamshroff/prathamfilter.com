@@ -1,9 +1,15 @@
+// pages/index.tsx
+import React from 'react';
+
 import Head from 'next/head';
 import { NextPage } from 'next';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+
+import Alert from '../components/Alert';
+import { siteInfo } from '@/config/siteInfo';
 
 const Home: NextPage = () => {
   return (
@@ -19,8 +25,9 @@ const Home: NextPage = () => {
         <link rel="android-chrome" type="image/png" sizes="512x512" href="assets/favicons/android-chrome-512x512.png" />
         <link rel="manifest" href="assets/favicons/site.webmanifest"></link>
       </Head>
-
+      
       <Navbar />
+      <Alert message={siteInfo.currentAlertMessage} />
       <Hero />
       <Contact />
       <Footer />
