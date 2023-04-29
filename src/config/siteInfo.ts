@@ -6,6 +6,7 @@ export const siteInfo = {
     email: 'ajay@prathamfilter.com',
     phoneNumber: '+91 98202 46044',
     mapsLink: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15079.941455953653!2d72.8883756!3d19.108298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d1eac68fbdb7b29!2sPratham%20Filter%20Industries!5e0!3m2!1sen!2sus!4v1667323416614!5m2!1sen!2sus',
+    companyLogo: "/assets/img/logos/pfi-logo-transparent.png",
     socialMedia: {
       facebook: 'https://www.facebook.com/prathamfilter/',
       instagram: 'https://www.instagram.com/prathamfilterindustries/',

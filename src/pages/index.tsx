@@ -9,7 +9,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 import Alert from '../components/Alert';
-import { siteInfo } from '@/config/siteInfo';
+import { siteInfo } from '../config/siteInfo';
 
 const Home: NextPage = () => {
   return (
