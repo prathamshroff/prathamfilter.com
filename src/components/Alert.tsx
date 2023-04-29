@@ -19,7 +19,7 @@ const Alert: React.FC<AlertProps> = ({ message }) => {
   return (
     <div className="text-center py-4 bg-yellow-200 flex justify-center items-center">
       <p className="text-xl font-semibold flex-grow text-gray-900">{message}</p>
-      <button onClick={handleCloseAlert} className="px-4 py-2 font-bold">
+      <button onClick={handleCloseAlert} className="px-4 py-2 font-bold text-gray-900">
         &times;
       </button>
     </div>
