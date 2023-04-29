@@ -12,15 +12,15 @@ const Contact: React.FC = () => {
     <div className="container mx-auto px-4 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="space-y-4 bg-white p-4 shadow-md">
-          <h2 className="text-2xl font-bold">Contact Information</h2>
-          <p>
+          <h2 className="text-2xl font-bold text-gray-900">Contact Information</h2>
+          <p className="text-gray-900">
             <strong>Address:</strong> {siteInfo.address}
           </p>
           <p>
-            <strong>Email:</strong> <a href={`mailto:${siteInfo.email}`} className="text-blue-600">{siteInfo.email}</a>
+            <strong className="text-gray-900">Email:</strong> <a href={`mailto:${siteInfo.email}`} className="text-blue-600">{siteInfo.email}</a>
           </p>
           <p>
-            <strong>Phone:</strong> <a href={`tel:${siteInfo.phoneNumber}`} className="text-blue-600">{siteInfo.phoneNumber}</a>
+            <strong className="text-gray-900">Phone:</strong> <a href={`tel:${siteInfo.phoneNumber}`} className="text-blue-600">{siteInfo.phoneNumber}</a>
           </p>
         </div>
         <div className="bg-white shadow-md">
@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
         </div>
       </div>
       <div className="mt-8 bg-white p-4 shadow-md">
-        <h2 className="text-2xl font-bold mb-4 text-center">Send Us a Message</h2>
+        <h2 className="text-2xl font-bold mb-4 text-center text-gray-900">Send Us a Message</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <input
