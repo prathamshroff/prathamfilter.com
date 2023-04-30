@@ -161,7 +161,6 @@ h6 {
 .navbar>ul>li>a:before {
   content: "";
   position: absolute;
-  width: 100%;
   height: 2px;
   bottom: 3px;
   left: 0;
@@ -394,7 +393,7 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -529,7 +528,7 @@ section {
 
 @media (max-width: 992px) {
   .breadcrumbs h2 {
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
   }
 }
 
@@ -603,7 +602,7 @@ section {
 # Steps
 --------------------------------------------------------------*/
 .steps {
-  padding: 50px 0 40px 0;
+  padding: 50px 0 40px;
 }
 
 .steps .row {
@@ -819,10 +818,9 @@ section {
 
 .testimonials .testimonial-item p {
   font-style: italic;
-  margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
+  margin: 0 15px;
+  padding: 20px 20px 60px;
   background: #eff7f6;
-  position: relative;
   border-radius: 6px;
   position: relative;
   z-index: 1;
@@ -853,8 +851,7 @@ section {
 }
 
 .portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 auto 35px auto;
+  margin: 0 auto 35px;
   list-style: none;
   text-align: center;
   background: #fff;
@@ -866,7 +863,7 @@ section {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 15px 8px 15px;
+  padding: 10px 15px 8px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -1207,7 +1204,7 @@ section {
 
 .faq .faq-list p {
   margin-bottom: 0;
-  padding: 10px 0 0 0;
+  padding: 10px 0 0;
 }
 
 .faq .faq-list .icon-show {
@@ -1416,7 +1413,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: black;
-  padding: 0 0 30px 0;
+  padding: 0 0 30px;
   color: #fff;
   font-size: 14px;
 }
@@ -1424,7 +1421,7 @@ section {
 #footer .footer-top {
   background: #0c1817;
   border-bottom: 1px solid #18302c;
-  padding: 60px 0 30px 0;
+  padding: 60px 0 30px;
 }
 
 #footer .footer-top .footer-info {
@@ -1433,8 +1430,8 @@ section {
 
 #footer .footer-top .footer-info h3 {
   font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
+  margin: 0 0 20px;
+  padding: 2px 0;
   line-height: 1;
   font-weight: 700;
 }
@@ -1534,7 +1531,6 @@ section {
   right: -4px;
   bottom: 0;
   border: 0;
-  background: none;
   font-size: 16px;
   padding: 0 20px;
   background: #1bac91;
