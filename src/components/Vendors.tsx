@@ -2,6 +2,7 @@ import React from 'react';
 import { vendors } from '../config/siteInfo/vendors';
 import SwiperCore, { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/legacy/image'
 
 // Import swiper styles
 import 'swiper/css';
@@ -12,7 +13,7 @@ SwiperCore.use([Pagination, Autoplay]);
 
 const PartnerLogos: React.FC = () => {
   return (
-    <div className="relative bg-white py-8">
+    <div className="relative bg-white py-5">
       <div className="container mx-auto px-4">
         <Swiper
           slidesPerView={2}
@@ -36,7 +37,11 @@ const PartnerLogos: React.FC = () => {
           {vendors.map((vendors, index) => (
             <SwiperSlide key={index} className="flex items-center justify-center h-full">
               <div className="flex items-center justify-center h-full">
-                <img src={vendors.logo} alt={vendors.name} className="h-12 object-contain" />
+                <Image
+                  src={vendors.logo} alt={vendors.name}
+                  width={200} height={100}
+                  className="h-12 object-contain"
+                />
               </div>
             </SwiperSlide>
           ))}
