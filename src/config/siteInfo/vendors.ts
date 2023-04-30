@@ -11,17 +11,17 @@ export const vendors = [
     },
     {
       id: 3,
-      name: 'Ion Exchange',
-      logo: "/assets/img/logos/ionexchange-trans-logo.png",
-    },
-    {
-      id: 4,
       name: 'Shakti Pumps',
       logo: "/assets/img/logos/shakti-trans-logo.png",
     },
     {
-      id: 5,
+      id: 4,
       name: 'Tata Steel',
       logo: "/assets/img/logos/tata-steel-trans-logo.png",
     },
+    {
+      id: 5,
+      name: 'Ion Exchange',
+      logo: "/assets/img/logos/ionexchange-trans-logo.png",
+    },  
 ];
