@@ -1,38 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# prathamfilter.com
 
-## Getting Started
+![Badge1](https://img.shields.io/badge/copyright-reserved-informational)
+[![Badge2](https://img.shields.io/badge/badge2-placeholder-blue)](https://example.com)
+[![Badge3](https://img.shields.io/badge/badge3-placeholder-red)](https://example.com)
 
-First, run the development server:
+prathamfilter.com is a Next.js web application built with Tailwind CSS and DaisyUI components. The project is designed to showcase a modern and responsive website for a company, featuring a carousel for displaying partner logos, a hero image, and a contact form. It also includes an Employee Sign-In feature with Google authentication, allowing employees to access a personalized dashboard with embedded webpages based on their email address.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Key components of the application include:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Responsive Navbar
+- Carousel for displaying partner logos
+- Hero image
+- Contact form
+- Employee Sign-In with Google
+- Personalized dashboard with embedded webpages based on the user's email address
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
+- [Google Sign-In](https://developers.google.com/identity/sign-in/web)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<!--- TODO: Add Logos of Technologies Used
+<p>
+  <img src="https://user-images.githubusercontent.com/45823031/235356546-6a53ee6a-9793-485c-a878-e17fa72d152e.png" alt="Next.js" height="50" />
+  <img src="https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg" alt="Tailwind CSS" height="50" />
+  <img src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg" alt="DaisyUI" height="50" />
+  <img src="https://camo.githubusercontent.com/e1e113df83e7731fdb90f6f0ab2eeb155fd1b48c27d99814dcf1c23c0acdc6a2/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313636323133303535392f6e6578746a732f49636f6e5f6461726b5f6261636b67726f756e642e706e67" alt="NextJS" height="50" />
+</p>
+-->
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+For detailed information on setting up and using the project, please refer to the [Deployment.md](./Deployment.md) file.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+If you'd like to contribute to the project or report bugs, please check out the [Contributing.md](./Contributing.md) file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Copyright
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+All rights reserved.
 
-## Deploy on Vercel
+--- 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[daisyUI-Logo]: https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg
